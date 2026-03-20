@@ -162,35 +162,6 @@ uvicorn main:app --reload
 
 ---
 
-# 🔑 Environment Variables
-
-```
-GEMINI_API_KEY=AIzaSyAQ4fMQE8ufty9Q08Gvd1aWLdxaVLr4STY
-FIREBASE_CONFIG=// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCqi1CW80aKhJztW9FZ3Eyfimh8sMDrsxY",
-  authDomain: "quiz-635a0.firebaseapp.com",
-  projectId: "quiz-635a0",
-  storageBucket: "quiz-635a0.firebasestorage.app",
-  messagingSenderId: "964342938107",
-  appId: "1:964342938107:web:5a4ec7ec1074d4b201f35e",
-  measurementId: "G-JHR9SXXNP0"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-```
-
----
-
 # 📈 Future Improvements
 
 * AI-powered adaptive difficulty
